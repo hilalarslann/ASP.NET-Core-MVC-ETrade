@@ -1,0 +1,52 @@
+﻿@model ETrade.UI.Models.ViewModel.BasketDetailModel
+
+<div class="row">
+    <div class="col-md-7">
+        <form method="post">
+            <div>
+                <label>Ürün</label>
+                <select name="ProductId" class="form-control">
+                    @foreach (var item in Model.ProductDTOs)
+                    {
+                        <option value="@item.Id">@item.ProductName</option>
+                    }
+                </select>
+            </div>
+            <div>
+                <label>Miktar</label>
+                <input class="form-control" type="Text" asp-for="Amount" />
+            </div>
+            <input type="submit" value="Ekle" />
+            <a class="btn btn-primary" href="/Payment/Index">Siparişi Tamamla</a>
+        </form>
+        <table class="table table-hover">
+            <tr>
+                <th>Ürün Adı</th>
+                <th>Miktar</th>
+                <th>Birim</th>
+                <th>KDV</th>
+                <th>Birim Fiyatı</th>
+                <th>Toplam Fiyat</th>
+            </tr>
+            @foreach (var item in Model.BasketDetailDTOs)
+            {
+                <tr>
+                    <td>@item.ProductName</td>
+                    <td>@item.Amount</td>
+                    <td>@item.UnitName</td>
+                    <td>@item.Ratio</td>
+                    <td>@item.UnitPrice</td>
+                    <td>@item.Total</td>
+                    @*?productId = @item.ProductId    eşittirlerin yanına boşluk eklediğimiz zaman kod düzgün çalışmıyor ProductIdyi 0 alıyor.
+                Htmlde debug yerine ekrana yazdırarak kontrolünü sağlamak daha sağlıklı.
+                *@
+                    <td><a class="btn btn-primary" href="/BasketDetail/Update/@item.Id/?productId=@item.ProductId">Değiştir</a></td>
+                    <td><a class="btn btn-danger" href="/BasketDetail/Delete/@item.Id/?productId=@item.ProductId">Sil</a></td>
+                </tr>
+            }
+        </table>
+    </div>
+    <div>
+        <h4>Toplam : @Model.BasketDetailDTOs.Count() Adet Ürün @Model.BasketDetailDTOs.Sum(x=>x.Total)</h4>
+    </div>
+</div>

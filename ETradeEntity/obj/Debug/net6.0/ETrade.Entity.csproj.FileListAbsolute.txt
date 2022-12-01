@@ -1,0 +1,14 @@
+C:\ERP301AKŞAM\15-KatmanliMimari\ETrade\ETradeEntity\bin\Debug\net6.0\ETrade.Entity.deps.json
+C:\ERP301AKŞAM\15-KatmanliMimari\ETrade\ETradeEntity\bin\Debug\net6.0\ETrade.Entity.runtimeconfig.json
+C:\ERP301AKŞAM\15-KatmanliMimari\ETrade\ETradeEntity\bin\Debug\net6.0\ETrade.Entity.dll
+C:\ERP301AKŞAM\15-KatmanliMimari\ETrade\ETradeEntity\bin\Debug\net6.0\ETrade.Entity.pdb
+C:\ERP301AKŞAM\15-KatmanliMimari\ETrade\ETradeEntity\obj\Debug\net6.0\ETrade.Entity.csproj.AssemblyReference.cache
+C:\ERP301AKŞAM\15-KatmanliMimari\ETrade\ETradeEntity\obj\Debug\net6.0\ETrade.Entity.GeneratedMSBuildEditorConfig.editorconfig
+C:\ERP301AKŞAM\15-KatmanliMimari\ETrade\ETradeEntity\obj\Debug\net6.0\ETrade.Entity.AssemblyInfoInputs.cache
+C:\ERP301AKŞAM\15-KatmanliMimari\ETrade\ETradeEntity\obj\Debug\net6.0\ETrade.Entity.AssemblyInfo.cs
+C:\ERP301AKŞAM\15-KatmanliMimari\ETrade\ETradeEntity\obj\Debug\net6.0\ETrade.Entity.csproj.CoreCompileInputs.cache
+C:\ERP301AKŞAM\15-KatmanliMimari\ETrade\ETradeEntity\obj\Debug\net6.0\ETrade.Entity.dll
+C:\ERP301AKŞAM\15-KatmanliMimari\ETrade\ETradeEntity\obj\Debug\net6.0\refint\ETrade.Entity.dll
+C:\ERP301AKŞAM\15-KatmanliMimari\ETrade\ETradeEntity\obj\Debug\net6.0\ETrade.Entity.pdb
+C:\ERP301AKŞAM\15-KatmanliMimari\ETrade\ETradeEntity\obj\Debug\net6.0\ETrade.Entity.genruntimeconfig.cache
+C:\ERP301AKŞAM\15-KatmanliMimari\ETrade\ETradeEntity\obj\Debug\net6.0\ref\ETrade.Entity.dll
