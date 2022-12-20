@@ -41,7 +41,7 @@ namespace ETrade.UI.Controllers
             else
             {
                 model.Msg = $"{model.User.Mail} zaten mevcut";
-                model.Counties = _uow._CountyRep.List();
+                model.Counties = _uow._CountyRep.List(); 
                 return View(model);
             }
         }
@@ -56,7 +56,7 @@ namespace ETrade.UI.Controllers
             //Session
             UserDTO user = _uow._UserRep.Login(Mail, Password);
 
-            if (user.Error == false)
+            if (user.Error == false) 
             {
                 HttpContext.Session.SetString("User", JsonConvert.SerializeObject(user));
                 if (user.Role == "Admin")
